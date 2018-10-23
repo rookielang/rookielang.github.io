@@ -1,20 +1,30 @@
 Methods
 ----
 
-```ruby
-class my_first_program {
-    @main
-    static def main() {
-        say_hello();
-    }
+### Static method
 
-    static def say_hello() {
-        puts("Hello World!");
+```ruby
+class dog {
+    static def kind() {
+        puts("animal");
+    }
+}
+class anchovy {
+    static def kind() {
+        puts("fish");
     }
 }
 ```
+```ruby
+// animal
+dog.kind();
 
-__Instance method__
+// fish
+anchovy.kind();
+```
+
+### Instance method
+
 ```ruby
 class greeter {
     def say_hello() {
