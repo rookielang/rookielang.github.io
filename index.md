@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
+title: Rookie
 description: Python is a programming language that lets you work quickly and integrate systems more effectively.
 buttons:
     - content: Online Playground
@@ -26,15 +26,15 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Language Guide
-      excerpt: Section description
+      excerpt: Learn how to make a program with rookie.
       cta: Read more
       url: 'guides'
     - title: C++ API
-      excerpt: Learn how to integrate rookie with your C++ program.
+      excerpt: Integration guide for C++.
       cta: Read more
       url: 'integrate_cpp'
     - title: C API
-      excerpt: Learn how to integrate rookie with your program.
+      excerpt: Integration guide for C (and others)
       cta: Read more
       url: 'integrate_c'
     - title: stdlib
