@@ -24,6 +24,27 @@ The syntax for instantiating class is `new()`, inspired by __Ruby__.
 a = CLASS_NAME.new();
 ```
 
+### Property
+
+<div class="example">
+Property
+</div>
+```ruby
+class person {
+    def set_age(age) {
+        @age = age;
+    }
+    def print_age() {
+        print(@age);
+    }
+}
+```
+
+```ruby
+a = person.new();
+a.age = 51;
+a.print_age(); // 51
+```
 
 ### Inheritance
 
