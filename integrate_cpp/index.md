@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "C++ Integration guide"
+description: Lean how to embed & extend with rookie.
 ---
 
 __Rookie__ provides C++ APIs to access entire language features such as AST and debugging.

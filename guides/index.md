@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "Language guide"
 micro_nav: true
 page_nav:
     next:
