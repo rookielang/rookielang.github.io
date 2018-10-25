@@ -83,7 +83,7 @@ int cpp_v = rk2int(v);
 value rk_v = int2rk(1234);
 ```
 
-|TYPE        |Rookie => C++ |C++ => Rookie |
+|TYPE        |Rookie → C++  |C++ → Rookie  |
 |------------|--------------|--------------|
 |integer     |rk2int        |int2rk        |
 |std::string |rk2str        |str2rk        |
