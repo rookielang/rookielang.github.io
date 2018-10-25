@@ -75,6 +75,20 @@ m = mymath.new();
 print( m.add(1, 5) );
 ```
 
+Conversion between Rookie and C++
+----
+
+```cpp
+int cpp_v = rk2int(v);
+value rk_v = int2rk(1234);
+```
+
+|TYPE        |Rookie => C++ |C++ => Rookie |
+|------------|--------------|--------------|
+|integer     |rk2int        |int2rk        |
+|std::string |rk2str        |str2rk        |
+|wchar_t*    |rk2cstr       |cstr2rk       |
+|object      |rk2ptr        |ptr2rk        |
 
 Embedding
 ----
