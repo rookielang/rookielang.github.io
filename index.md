@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Rookie
-description: Python is a programming language that lets you work quickly and integrate systems more effectively.
+description: Rookie is a dynamic programming language with simple and readable syntax.
 buttons:
     - content: Online Playground
       icon: arrow-right
