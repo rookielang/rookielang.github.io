@@ -103,8 +103,12 @@ runner(*out.p, b).execute();
 Reflection
 ----
 
+### Compile time reflection
+
 <div class="example">
-Extend a class
+Reflection
 </div>
 ```cpp
+for (auto &method : astr::all_methods(root))
+    printf("%S\n", method.name.c_str());
 ```
