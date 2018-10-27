@@ -4,14 +4,12 @@
 		{% include site-head.html %}
 
 		<style>
+			#playground {
+				float: right;
+			}
 			#editor { 
-                position: absolute;
-
                 width: 520px;
                 height: 300px;
- 
-                top: calc(150px);
-                left: 53vw;
 			}
 			#output {
                 position: absolute;
@@ -30,7 +28,7 @@
 			}
 			
 			.hero-subheader__desc {
-				width: 500px;
+				width: 470px;
 			}
 		</style>
 	</head>
@@ -38,7 +36,7 @@
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-7" style="float:left">
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								{% if page.title %}
