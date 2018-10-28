@@ -38,3 +38,16 @@ for loop
 for (i=0;i<10;i++) 
     puts(i);
 ```
+
+### while
+
+The `while` loop is exactly same as other's.
+
+<div class="example">
+while loop
+</div>
+```ruby
+while (true) {
+    puts("HElloo");
+}
+```
