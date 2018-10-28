@@ -78,9 +78,20 @@ print( m.add(1, 5) );
 Conversion between Rookie and C++
 ----
 
+<div class="example">
+Primitive type conversion
+</div>
 ```cpp
-int cpp_v = rk2int(v);
-value rk_v = int2rk(1234);
+int   cpp_v = rk2int(v);
+value rk_v  = int2rk(1234);
+```
+
+<div class="example">
+Object conversion
+</div>
+```cpp
+rkstring cpp_v = rk2obj(v, rkstring*);
+value    rk_v  = obj2rk(cpp_v, string);
 ```
 
 |TYPE        |Rookie → C++  |C++ → Rookie  |
