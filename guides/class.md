@@ -24,6 +24,22 @@ The syntax for instantiating class is `new()`, inspired by __Ruby__.
 a = CLASS_NAME.new();
 ```
 
+### Field
+
+<div class="example">
+Field
+</div>
+```ruby
+class character {
+    MaxLength = 16;
+
+    def set_name(name) {
+        if (name.length() >= MaxLength)
+          puts ("ERROR!");
+    }
+}
+```
+
 ### Property
 
 <div class="example">
