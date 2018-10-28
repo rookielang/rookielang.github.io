@@ -7,12 +7,8 @@ doks:
             text: Rookie
             image:
         nav:
-            - item_name: Item 1
-              item_url: 'guides/'
-            - item_name: Item 2
-              item_url: '#'
-            - item_name: Item 3
-              item_url: '#'
+            - item_name: Github
+              item_url: 'https://www.github.com/pjc0247/rookie.lang'
     footer:
         content:
             logo:
