@@ -105,6 +105,8 @@ Reflection
 
 ### Compile time reflection
 
+`astr` class provides __AST__ level reflection methods.
+
 <div class="example">
 Reflection
 </div>
