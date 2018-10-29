@@ -1,6 +1,8 @@
 Dictionary
 ----
 
+__Dictionary__ is a `key-value` storage.
+
 ```ruby
 dic = {
     name: "Jinwoo",
