@@ -36,7 +36,7 @@ Extending your code
 Extend a function
 </div>
 ```cpp
-b.function(L"myadd", [](value &a, value &b){
+b.function(L"myadd", [](value_cref a, value_cref b){
     return a + b;
 });
 ```
@@ -44,6 +44,8 @@ b.function(L"myadd", [](value &a, value &b){
 // 5
 print( myadd(1, 4) );
 ```
+
+Please remember that `value_cref` means __const value &__. Every parameter is immutable.
 
 ### Extend classes
 
@@ -61,7 +63,7 @@ public:
         b.add_type(type);
     }
 
-    value add(value &a, value &b) {
+    value add(value_cref a, value_cref b) {
         return a + b;
     }
 }

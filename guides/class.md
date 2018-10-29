@@ -12,6 +12,8 @@ Class definition
 </div>
 ```ruby
 class CLASS_NAME {
+    FIELD = 1;
+    
     def METHOD_NAME(PARAMS) {
         // METHOD_BODY
     }
