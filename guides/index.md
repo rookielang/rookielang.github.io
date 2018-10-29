@@ -21,6 +21,12 @@ page_nav:
 {% capture my_include %}{% include_relative flows.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
+{% capture my_include %}{% include_relative array.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
+{% capture my_include %}{% include_relative dictionary.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
 {% capture my_include %}{% include_relative indexer.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
