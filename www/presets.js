@@ -1,15 +1,18 @@
 var presets = {
-    fibo: `class example_fibo {
+    fibo: `// Find more examples at 'PLAYGROUND'
+class example_fibo {
     @main
     static def main() {
-        print(fib(10));
-    }
+        person = {
+            name  : "Jinwoo",
+            age   : 24,
+            hobby : ["Game", "AVR", "eBay"]
+        };
 
-    def fib(x) {        
-        if (x == 0) return 0;
-        if (x == 1) return 1;
-        
-        return fib(x-1) + fib(x-2);
+        for (k, v in person) {
+            puts (k);
+            ptus (v);
+        }
     }
 }`,
 
