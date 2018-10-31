@@ -10,7 +10,7 @@ class example_fibo {
         };
 
         for (k, v in person) {
-            puts(``{{k}}: {{v}}``);
+            puts(\`{{k}}: {{v}}\`);
         }
     }
 }`,
