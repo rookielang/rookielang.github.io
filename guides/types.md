@@ -1,6 +1,8 @@
 Type
 ----
 
+__Rookie__ has a runtype typedata and you can access to it.
+
 <div class="example">
 Compare type using `is`
 </div>
