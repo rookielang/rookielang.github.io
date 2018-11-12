@@ -33,5 +33,8 @@ page_nav:
 {% capture my_include %}{% include_relative types.md %}{% endcapture %}
 {{ my_include | markdownify }}
 
+{% capture my_include %}{% include_relative exceptions.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
 {% capture my_include %}{% include_relative string_interploation.md %}{% endcapture %}
 {{ my_include | markdownify }}
