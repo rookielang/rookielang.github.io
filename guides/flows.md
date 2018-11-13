@@ -35,7 +35,7 @@ if (a > 5) {
 for loop
 </div>
 ```ruby
-for (i=0;i<10;i++) 
+for (i = 0; i < 10; i++) 
     puts(i);
 ```
 
