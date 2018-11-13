@@ -14,6 +14,8 @@ puts (dic.to_string());
 
 ### Nested initilization
 
+You can put dictionaries and arrays inside the dictionary.
+
 ```ruby
 person = {
     name  : "Jinwoo", 
