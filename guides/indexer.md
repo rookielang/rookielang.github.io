@@ -6,10 +6,10 @@ Indexer
 </div>
 ```ruby
 class foo {
-    def __get_item__ (key) {
+    def __getitem__ (key) {
         /* ... */
     }
-    def __set_item__ (key, value) {
+    def __setitem__ (key, value) {
         /* ... */
     }
 }
