@@ -1,5 +1,5 @@
 var presets = {
-    fibo: `// Find more examples at 'PLAYGROUND'
+    fibo: `# Find more examples at 'PLAYGROUND'
 class example_fibo {
     @main
     static def main() {
