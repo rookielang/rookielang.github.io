@@ -30,7 +30,7 @@ else {
 Extending your code
 ----
 
-### Extend functions
+### Global function
 
 <div class="example">
 myadd.cpp
@@ -50,7 +50,7 @@ print( myadd(1, 4) );
 
 Please remember that `value_cref` means __const value &__. Every parameter is immutable.
 
-### Extend classes
+### Class
 
 <div class="example">
 Extend a class
