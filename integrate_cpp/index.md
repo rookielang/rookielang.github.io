@@ -138,6 +138,13 @@ for (auto &method : astr::all_methods(root))
 
 Debugging
 ----
+
+__Supported debugging features__
+
+* Pause and REPL (TODO)
+* Step-by-step (Instruction level)
+* Step-by-step (Code level, line)
+
 ```cpp
 debugger dbger(pdb);
 runner r(p)
