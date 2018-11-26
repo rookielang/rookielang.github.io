@@ -53,7 +53,7 @@ Please remember that `value_cref` means __const value &__. Every parameter is im
 ### Class
 
 <div class="example">
-Extend a class
+mymath.cpp
 </div>
 ```cpp
 class mymath : rkobject<mymath> {
@@ -73,10 +73,14 @@ public:
 
 b.import<mymath>();
 ```
+
+<div class="example">
+Call `mymath::add` in rookie
+</div>
 ```ruby
 m = mymath.new();
 
-// 5
+# 5
 print( m.add(1, 5) );
 ```
 
@@ -129,4 +133,13 @@ Reflection
 ```cpp
 for (auto &method : astr::all_methods(root))
     printf("%S\n", method.name.c_str());
+```
+
+
+Debugging
+----
+```cpp
+debugger dbger(pdb);
+runner r(p)
+    .attach_debugger(dbger);
 ```
