@@ -33,15 +33,18 @@ Extending your code
 ### Extend functions
 
 <div class="example">
-Extend a function
+myadd.cpp
 </div>
 ```cpp
 b.function(L"myadd", [](value_cref a, value_cref b){
     return a + b;
 });
 ```
+<div class="example">
+Call `myadd` in rookie
+</div>
 ```ruby
-// 5
+# 5
 print( myadd(1, 4) );
 ```
 
