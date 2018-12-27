@@ -3,6 +3,8 @@ Methods
 
 ### Static method
 
+__Static methods__ are sort of __global methods__. They can be accessed without instantiating an object.
+
 ```ruby
 class dog {
     static def kind() {
@@ -16,10 +18,10 @@ class anchovy {
 }
 ```
 ```ruby
-// animal
+# animal
 dog.kind();
 
-// fish
+# fish
 anchovy.kind();
 ```
 
