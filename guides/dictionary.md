@@ -9,7 +9,7 @@ person = {
     age : 24
 };
 
-puts (dic.to_string());
+puts (person.to_string());
 ```
 
 ### Nested initilization
