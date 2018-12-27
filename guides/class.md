@@ -15,7 +15,7 @@ class CLASS_NAME {
     FIELD = 1;
     
     def METHOD_NAME(PARAMS) {
-        // METHOD_BODY
+        # METHOD_BODY
     }
 }
 ```
@@ -44,11 +44,14 @@ class character {
 
 ### Property
 
+__Property__ is a instance variable and must be started with `@`.
+
 <div class="example">
 Property
 </div>
 ```ruby
 class person {
+    # `age` and `@age` have different meanings!
     def set_age(age) {
         @age = age;
     }
@@ -60,8 +63,14 @@ class person {
 
 ```ruby
 a = person.new();
-a.age = 51;
-a.print_age(); // 51
+a.set_age(51);
+a.print_age(); # 51
+```
+
+__Properties__ are also can be accessed outside of the class. In this time, you should not use `@` before it's name.
+```ruby
+a.age = 22;
+a.print_age(); # 22
 ```
 
 ### Inheritance
@@ -82,9 +91,9 @@ class engineer : person {
 }
 ```
 ```ruby
-// Hello
+# Hello
 person.new().say_hello();
 
-// HelloWorld
+# HelloWorld
 engineer.new().say_hello();
 ```
