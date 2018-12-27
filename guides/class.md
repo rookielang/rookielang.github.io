@@ -67,7 +67,7 @@ a.set_age(51);
 a.print_age(); # 51
 ```
 
-__Properties__ are also can be accessed outside of the class. In this time, you should not use `@` before it's name.
+__Properties__ are also can be accessed outside of the class. In this time, you should not use `@` before its name.
 ```ruby
 a.age = 22;
 a.print_age(); # 22
