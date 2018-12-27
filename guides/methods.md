@@ -3,7 +3,7 @@ Methods
 
 ### Static method
 
-__Static methods__ are sort of __global methods__. They can be accessed without instantiating an object.
+__Static methods__ are a sort of __global method__. They can be accessed without instantiating an object.
 
 ```ruby
 class dog {
